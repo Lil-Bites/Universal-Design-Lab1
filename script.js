@@ -8,7 +8,7 @@ document.body.appendChild(info);
 document.body.appendChild(list);
 
 html.onclick = function() {
-  const listItem = document.createElement('li');
+  const listItem = document.body.createElement('li');
   const listContent = prompt('What content do you want the list item to have?');
   listItem.textContent = listContent;
   list.appendChild(listItem);

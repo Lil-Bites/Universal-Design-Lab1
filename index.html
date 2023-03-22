@@ -1,51 +1,100 @@
 <!DOCTYPE html>
-<html lang="eng-US">
-
-  <head>
+<html lang="en">
+  <head> 
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
   
     <title>Yeats Page 1</title>
 
     <meta name = "author" content = "W. Avery Yeats">
     <meta name = "description" content="This is my first webpage for my Universal Design class 2023.0">
 
+    <style>
+    body {
+      background-color: aquamarine;
+      color:rgb(0, 0, 0)
+    }
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    header{
+      background-color: aliceblue;
+      text-align: center;
+    }
 
-    <link rel="stylesheet" herf="style.css"/>
+    nav{
+      background-color: blanchedalmond;
+      list-style: none;
+      text-align:center; 
+    }
 
-    <script src="script.js" defer></script>
+    ul,ol {
+      background-color: rgb(237, 136, 136);
+      color:rgb(2, 2, 191)
+    }
 
- 
+    aside {
+      background-color: beige;
+    }
+    </style>
+
+    <link href="style.css" rel="stylesheet" />
+
   </head>
   
   <body>
+    <div class="container">
+      <header>
+        <h1>&quot Your HTML code goes here. &quot</h1>
+        <h2 style ="color:green">Japanese example: ご飯が熱い。</h2>
+      </header>
+      <nav>
+        <section>
+          <ur>
+            <li> 
+              <a href="https://www.youtube.com/">Youtube</a>
+              <a href="https://www.perthirtysix.com/essay/wordle-solutions-visualized">Wordle Word Visualizer</a>
+              <a href="#">Blank Link</a>
+              <a href="https://www.perthirtysix.com/essay/wordle-solutions-visualized">Cosmodernism</a>
+            </li>
+          </ur>
+        </section>
+      </nav>
+      <main>
+        <section>
+          <p>This is a link to the best spongebob picture I could find <a herf="https://img.buzzfeed.com/buzzfeed-static/static/2015-02/23/11/enhanced/webdr03/original-19818-1424710169-33.png?downsize=900:*&output-format=auto&output-quality=auto"> <h3>Picture of squid boy!</h3> </a></p>
+        
+          <p>Heres the better angle. <a herf="https://static.wikia.nocookie.net/spongebob/images/9/96/The_Two_Faces_of_Squidward_174.png/revision/latest?cb=20200923005328"> <img  alt="The squidward glammer shot"> </p>   
+        </section>
+    </main>
 
-    <h1>&quot Your HTML code goes here. &quot</h1>
-    <h2 style ="color:green">Japanese example: ご飯が熱い。</h2>
+    <aside id="aside1">
+      <ul>
+        <li>Wake Up</li>
+        <li>Code</li>
+        <li>Sleep</li>
+        <li>Code</li>
+      </ul>
 
-    <p>This is a link to the best spongebob picture I could find <a herf="https://img.buzzfeed.com/buzzfeed-static/static/2015-02/23/11/enhanced/webdr03/original-19818-1424710169-33.png?downsize=900:*&output-format=auto&output-quality=auto"> <h3>Picture of squid boy!</h3> </a></p>
+      <ol>
+        <li>Make the code</li>
+          <li>it doesnt work</li>
+        <li>fix the code</li>
+          <li>it <strong>doesn't</strong> work</li>
+      </ol>
+    </section>
     
-    <p>Heres the better angle. <a herf="https://static.wikia.nocookie.net/spongebob/images/9/96/The_Two_Faces_of_Squidward_174.png/revision/latest?cb=20200923005328"><img herf="https://static.wikia.nocookie.net/spongebob/images/9/96/The_Two_Faces_of_Squidward_174.png/revision/latest?cb=20200923005328" alt="The squidward glammer shot"> </p> 
-    <t> 
-    <ul>
-      <li>Wake Up</li>
-      <li>Code</li>
-      <li>Sleep</li>
-      <li>Code</li>
-    </ul>
+    <aside id="adide2">
+      <script src="script.js" defer></script>
+    </section>
 
-    <ol>
-      <li>Make the code</li>
-        <li>it doesnt work</li>
-      <li>fix the code</li>
-        <li>it <strong>doesn't</strong> work</li>
-    </ol></t>
-   
-
+    <footer>
+      <small>Created by me - W. Avery Yeats</small>
+    </footer>
+     
     
-
+      
+    </div>
   </body>
+  
   </html>
